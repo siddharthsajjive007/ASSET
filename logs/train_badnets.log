@@ -1,0 +1,112 @@
+Epoch :0
+Epoch 1/50 | train_loss=1.9571 | train_acc=28.63%
+Epoch :1
+Epoch 2/50 | train_loss=1.5540 | train_acc=42.57%
+Epoch :2
+Epoch 3/50 | train_loss=1.3316 | train_acc=52.06%
+Epoch :3
+Epoch 4/50 | train_loss=1.1347 | train_acc=60.11%
+Epoch :4
+Epoch 5/50 | train_loss=0.9956 | train_acc=65.13%
+  --> Clean ACC: 65.05% | ASR: 14.78%
+Epoch :5
+Epoch 6/50 | train_loss=0.8495 | train_acc=71.05%
+Epoch :6
+Epoch 7/50 | train_loss=0.7324 | train_acc=75.00%
+Epoch :7
+Epoch 8/50 | train_loss=0.6688 | train_acc=77.55%
+Epoch :8
+Epoch 9/50 | train_loss=0.6283 | train_acc=78.96%
+Epoch :9
+Epoch 10/50 | train_loss=0.6030 | train_acc=80.06%
+  --> Clean ACC: 71.04% | ASR: 91.90%
+Epoch :10
+Epoch 11/50 | train_loss=0.5690 | train_acc=81.17%
+Epoch :11
+Epoch 12/50 | train_loss=0.5406 | train_acc=82.34%
+Epoch :12
+Epoch 13/50 | train_loss=0.5289 | train_acc=82.71%
+Epoch :13
+Epoch 14/50 | train_loss=0.5123 | train_acc=83.12%
+Epoch :14
+Epoch 15/50 | train_loss=0.4951 | train_acc=83.77%
+  --> Clean ACC: 80.78% | ASR: 96.14%
+Epoch :15
+Epoch 16/50 | train_loss=0.4714 | train_acc=84.83%
+Epoch :16
+Epoch 17/50 | train_loss=0.4615 | train_acc=85.06%
+Epoch :17
+Epoch 18/50 | train_loss=0.4467 | train_acc=85.61%
+Epoch :18
+Epoch 19/50 | train_loss=0.4313 | train_acc=86.04%
+Epoch :19
+Epoch 20/50 | train_loss=0.4234 | train_acc=86.34%
+  --> Clean ACC: 82.92% | ASR: 87.21%
+Epoch :20
+Epoch 21/50 | train_loss=0.4066 | train_acc=86.89%
+Epoch :21
+Epoch 22/50 | train_loss=0.3915 | train_acc=87.39%
+Epoch :22
+Epoch 23/50 | train_loss=0.3773 | train_acc=87.89%
+Epoch :23
+Epoch 24/50 | train_loss=0.3651 | train_acc=88.50%
+Epoch :24
+Epoch 25/50 | train_loss=0.3566 | train_acc=88.69%
+  --> Clean ACC: 84.99% | ASR: 96.21%
+Epoch :25
+Epoch 26/50 | train_loss=0.3385 | train_acc=89.35%
+Epoch :26
+Epoch 27/50 | train_loss=0.3198 | train_acc=89.85%
+Epoch :27
+Epoch 28/50 | train_loss=0.3099 | train_acc=90.19%
+Epoch :28
+Epoch 29/50 | train_loss=0.2976 | train_acc=90.58%
+Epoch :29
+Epoch 30/50 | train_loss=0.2856 | train_acc=91.14%
+  --> Clean ACC: 86.32% | ASR: 84.06%
+Epoch :30
+Epoch 31/50 | train_loss=0.2725 | train_acc=91.58%
+Epoch :31
+Epoch 32/50 | train_loss=0.2549 | train_acc=92.29%
+Epoch :32
+Epoch 33/50 | train_loss=0.2404 | train_acc=92.61%
+Epoch :33
+Epoch 34/50 | train_loss=0.2179 | train_acc=93.35%
+Epoch :34
+Epoch 35/50 | train_loss=0.2066 | train_acc=93.83%
+  --> Clean ACC: 89.80% | ASR: 96.09%
+Epoch :35
+Epoch 36/50 | train_loss=0.1897 | train_acc=94.40%
+Epoch :36
+Epoch 37/50 | train_loss=0.1704 | train_acc=95.02%
+Epoch :37
+Epoch 38/50 | train_loss=0.1553 | train_acc=95.51%
+Epoch :38
+Epoch 39/50 | train_loss=0.1437 | train_acc=95.96%
+Epoch :39
+Epoch 40/50 | train_loss=0.1339 | train_acc=96.26%
+  --> Clean ACC: 92.23% | ASR: 94.68%
+Epoch :40
+Epoch 41/50 | train_loss=0.1134 | train_acc=96.98%
+Epoch :41
+Epoch 42/50 | train_loss=0.1024 | train_acc=97.33%
+Epoch :42
+Epoch 43/50 | train_loss=0.0957 | train_acc=97.55%
+Epoch :43
+Epoch 44/50 | train_loss=0.0865 | train_acc=97.84%
+Epoch :44
+Epoch 45/50 | train_loss=0.0819 | train_acc=97.97%
+  --> Clean ACC: 93.43% | ASR: 96.34%
+Epoch :45
+Epoch 46/50 | train_loss=0.0760 | train_acc=98.10%
+Epoch :46
+Epoch 47/50 | train_loss=0.0727 | train_acc=98.19%
+Epoch :47
+Epoch 48/50 | train_loss=0.0723 | train_acc=98.16%
+Epoch :48
+Epoch 49/50 | train_loss=0.0694 | train_acc=98.23%
+Epoch :49
+Epoch 50/50 | train_loss=0.0686 | train_acc=98.27%
+  --> Clean ACC: 93.53% | ASR: 96.30%
+Saved backdoored checkpoint to /home/HDD/ATAF/siddharth/ASSET/trained_models/poisoned_models/resnet18_cifar10_badnets.pth
+Final: Clean ACC=93.53%, ASR=96.30%

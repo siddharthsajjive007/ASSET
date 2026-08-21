@@ -1,0 +1,14 @@
+backdoor: SKIPPED (already trained)
+backdoor_all2all: SKIPPED (already trained)
+noisy_label: SKIPPED (already trained)
+flipping_label: SKIPPED (already trained)
+clean_label_narcissus: SKIPPED (already trained)
+noisy_all2one: SKIPPED (already trained)
+noisy_all2all: SKIPPED (already trained)
+wanet: SUCCESS
+blended: SUCCESS
+badnets: SUCCESS
+low_frequency: SUCCESS
+ssba: SUCCESS
+inputaware: SUCCESS
+ctrl: SUCCESS

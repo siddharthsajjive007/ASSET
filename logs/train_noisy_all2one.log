@@ -1,0 +1,114 @@
+[poi_dataset] Warning: noise file not found at '/home/minzhou/public_html/unlearnable/cifar10/best_universal.npy'. Generating a random placeholder trigger of shape (32, 32, 3) instead. This is NOT the paper's optimized perturbation, so expect a much weaker attack than the original method.
+[poi_dataset] Warning: noise file not found at '/home/minzhou/public_html/unlearnable/cifar10/best_universal.npy'. Generating a random placeholder trigger of shape (32, 32, 3) instead. This is NOT the paper's optimized perturbation, so expect a much weaker attack than the original method.
+Epoch :0
+Epoch 1/50 | train_loss=2.0649 | train_acc=25.59%
+Epoch :1
+Epoch 2/50 | train_loss=1.5916 | train_acc=40.62%
+Epoch :2
+Epoch 3/50 | train_loss=1.3936 | train_acc=49.10%
+Epoch :3
+Epoch 4/50 | train_loss=1.2229 | train_acc=56.45%
+Epoch :4
+Epoch 5/50 | train_loss=1.0663 | train_acc=62.52%
+  --> Clean ACC: 59.71% | ASR: 17.16%
+Epoch :5
+Epoch 6/50 | train_loss=0.9049 | train_acc=68.21%
+Epoch :6
+Epoch 7/50 | train_loss=0.7156 | train_acc=75.18%
+Epoch :7
+Epoch 8/50 | train_loss=0.6127 | train_acc=78.89%
+Epoch :8
+Epoch 9/50 | train_loss=0.5598 | train_acc=80.64%
+Epoch :9
+Epoch 10/50 | train_loss=0.5288 | train_acc=81.78%
+  --> Clean ACC: 74.05% | ASR: 97.92%
+Epoch :10
+Epoch 11/50 | train_loss=0.4955 | train_acc=82.99%
+Epoch :11
+Epoch 12/50 | train_loss=0.4645 | train_acc=83.95%
+Epoch :12
+Epoch 13/50 | train_loss=0.4502 | train_acc=84.56%
+Epoch :13
+Epoch 14/50 | train_loss=0.4320 | train_acc=85.30%
+Epoch :14
+Epoch 15/50 | train_loss=0.4150 | train_acc=85.73%
+  --> Clean ACC: 80.53% | ASR: 98.19%
+Epoch :15
+Epoch 16/50 | train_loss=0.3973 | train_acc=86.37%
+Epoch :16
+Epoch 17/50 | train_loss=0.3787 | train_acc=86.95%
+Epoch :17
+Epoch 18/50 | train_loss=0.3659 | train_acc=87.55%
+Epoch :18
+Epoch 19/50 | train_loss=0.3513 | train_acc=88.04%
+Epoch :19
+Epoch 20/50 | train_loss=0.3395 | train_acc=88.39%
+  --> Clean ACC: 84.20% | ASR: 98.38%
+Epoch :20
+Epoch 21/50 | train_loss=0.3269 | train_acc=88.81%
+Epoch :21
+Epoch 22/50 | train_loss=0.3107 | train_acc=89.31%
+Epoch :22
+Epoch 23/50 | train_loss=0.2966 | train_acc=89.78%
+Epoch :23
+Epoch 24/50 | train_loss=0.2817 | train_acc=90.18%
+Epoch :24
+Epoch 25/50 | train_loss=0.2748 | train_acc=90.50%
+  --> Clean ACC: 83.86% | ASR: 98.59%
+Epoch :25
+Epoch 26/50 | train_loss=0.2604 | train_acc=91.04%
+Epoch :26
+Epoch 27/50 | train_loss=0.2461 | train_acc=91.59%
+Epoch :27
+Epoch 28/50 | train_loss=0.2304 | train_acc=92.10%
+Epoch :28
+Epoch 29/50 | train_loss=0.2206 | train_acc=92.32%
+Epoch :29
+Epoch 30/50 | train_loss=0.2046 | train_acc=92.94%
+  --> Clean ACC: 88.39% | ASR: 98.52%
+Epoch :30
+Epoch 31/50 | train_loss=0.1927 | train_acc=93.34%
+Epoch :31
+Epoch 32/50 | train_loss=0.1741 | train_acc=93.99%
+Epoch :32
+Epoch 33/50 | train_loss=0.1592 | train_acc=94.49%
+Epoch :33
+Epoch 34/50 | train_loss=0.1408 | train_acc=95.11%
+Epoch :34
+Epoch 35/50 | train_loss=0.1302 | train_acc=95.53%
+  --> Clean ACC: 89.08% | ASR: 98.60%
+Epoch :35
+Epoch 36/50 | train_loss=0.1105 | train_acc=96.21%
+Epoch :36
+Epoch 37/50 | train_loss=0.0974 | train_acc=96.64%
+Epoch :37
+Epoch 38/50 | train_loss=0.0828 | train_acc=97.20%
+Epoch :38
+Epoch 39/50 | train_loss=0.0655 | train_acc=97.82%
+Epoch :39
+Epoch 40/50 | train_loss=0.0544 | train_acc=98.21%
+  --> Clean ACC: 92.19% | ASR: 99.38%
+Epoch :40
+Epoch 41/50 | train_loss=0.0402 | train_acc=98.73%
+Epoch :41
+Epoch 42/50 | train_loss=0.0298 | train_acc=99.13%
+Epoch :42
+Epoch 43/50 | train_loss=0.0229 | train_acc=99.33%
+Epoch :43
+Epoch 44/50 | train_loss=0.0174 | train_acc=99.52%
+Epoch :44
+Epoch 45/50 | train_loss=0.0145 | train_acc=99.61%
+  --> Clean ACC: 93.40% | ASR: 99.23%
+Epoch :45
+Epoch 46/50 | train_loss=0.0118 | train_acc=99.74%
+Epoch :46
+Epoch 47/50 | train_loss=0.0094 | train_acc=99.81%
+Epoch :47
+Epoch 48/50 | train_loss=0.0092 | train_acc=99.82%
+Epoch :48
+Epoch 49/50 | train_loss=0.0089 | train_acc=99.82%
+Epoch :49
+Epoch 50/50 | train_loss=0.0084 | train_acc=99.86%
+  --> Clean ACC: 93.61% | ASR: 99.24%
+Saved backdoored checkpoint to trained_models/poisoned_models/resnet18_cifar10_noisy_all2one.pth
+Final: Clean ACC=93.61%, ASR=99.24%

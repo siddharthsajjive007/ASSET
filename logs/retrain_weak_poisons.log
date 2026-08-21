@@ -1,0 +1,76 @@
+Resuming: found 9 previous attempt(s) in retrain_weak_poisons_results.csv
+Baseline ASR to beat: {'wanet': 73.39, 'blended': 88.7, 'low_frequency': 91.54, 'ssba': 24.14, 'flipping_label': 85.38, 'noisy_all2all': 91.16}
+
+======================================================================
+=== blended | epochs=50 poi_rates=0.15 (current best ASR=88.70%) ===
+======================================================================
+  epoch 1/50 | train_loss=1.9192 | train_acc=33.52%
+  epoch 2/50 | train_loss=1.4865 | train_acc=46.41%
+  epoch 3/50 | train_loss=1.2810 | train_acc=54.05%
+  epoch 4/50 | train_loss=1.1295 | train_acc=59.80%
+  epoch 5/50 | train_loss=1.0180 | train_acc=63.86%
+  epoch 6/50 | train_loss=0.9235 | train_acc=67.38%
+  epoch 7/50 | train_loss=0.8322 | train_acc=70.69%
+  epoch 8/50 | train_loss=0.7587 | train_acc=73.19%
+  epoch 9/50 | train_loss=0.6940 | train_acc=75.66%
+  epoch 10/50 | train_loss=0.6559 | train_acc=76.80%
+    --> Clean ACC: 69.12% | ASR: 90.44%
+  epoch 11/50 | train_loss=0.6207 | train_acc=78.24%
+  epoch 12/50 | train_loss=0.5846 | train_acc=79.33%
+  epoch 13/50 | train_loss=0.5637 | train_acc=80.30%
+  epoch 14/50 | train_loss=0.5384 | train_acc=80.90%
+  epoch 15/50 | train_loss=0.5255 | train_acc=81.38%
+  epoch 16/50 | train_loss=0.5038 | train_acc=82.19%
+  epoch 17/50 | train_loss=0.4878 | train_acc=82.75%
+  epoch 18/50 | train_loss=0.4655 | train_acc=83.66%
+  epoch 19/50 | train_loss=0.4528 | train_acc=83.83%
+  epoch 20/50 | train_loss=0.4392 | train_acc=84.70%
+    --> Clean ACC: 76.96% | ASR: 94.99%
+  epoch 21/50 | train_loss=0.4207 | train_acc=85.07%
+  epoch 22/50 | train_loss=0.4046 | train_acc=85.74%
+  epoch 23/50 | train_loss=0.3908 | train_acc=86.29%
+  epoch 24/50 | train_loss=0.3746 | train_acc=86.72%
+  epoch 25/50 | train_loss=0.3661 | train_acc=86.93%
+  epoch 26/50 | train_loss=0.3459 | train_acc=87.74%
+  epoch 27/50 | train_loss=0.3372 | train_acc=88.03%
+  epoch 28/50 | train_loss=0.3233 | train_acc=88.45%
+  epoch 29/50 | train_loss=0.3039 | train_acc=89.13%
+  epoch 30/50 | train_loss=0.2836 | train_acc=89.79%
+    --> Clean ACC: 83.70% | ASR: 92.55%
+  epoch 31/50 | train_loss=0.2743 | train_acc=90.10%
+  epoch 32/50 | train_loss=0.2580 | train_acc=90.71%
+  epoch 33/50 | train_loss=0.2367 | train_acc=91.52%
+  epoch 34/50 | train_loss=0.2258 | train_acc=91.84%
+  epoch 35/50 | train_loss=0.1992 | train_acc=92.68%
+  epoch 36/50 | train_loss=0.1871 | train_acc=93.20%
+  epoch 37/50 | train_loss=0.1658 | train_acc=93.90%
+  epoch 38/50 | train_loss=0.1501 | train_acc=94.51%
+  epoch 39/50 | train_loss=0.1334 | train_acc=95.14%
+  epoch 40/50 | train_loss=0.1177 | train_acc=95.62%
+    --> Clean ACC: 88.88% | ASR: 94.48%
+  epoch 41/50 | train_loss=0.0976 | train_acc=96.41%
+  epoch 42/50 | train_loss=0.0825 | train_acc=97.06%
+  epoch 43/50 | train_loss=0.0722 | train_acc=97.31%
+  epoch 44/50 | train_loss=0.0610 | train_acc=97.82%
+  epoch 45/50 | train_loss=0.0519 | train_acc=98.23%
+  epoch 46/50 | train_loss=0.0455 | train_acc=98.42%
+  epoch 47/50 | train_loss=0.0391 | train_acc=98.71%
+  epoch 48/50 | train_loss=0.0343 | train_acc=98.91%
+  epoch 49/50 | train_loss=0.0326 | train_acc=99.01%
+  epoch 50/50 | train_loss=0.0317 | train_acc=99.02%
+    --> Clean ACC: 90.85% | ASR: 92.69%
+  ** NEW BEST for blended: ASR 92.69% (was 88.70%) -- saved to /home/HDD/ATAF/siddharth/ASSET/trained_models/poisoned_models/resnet18_cifar10_blended.pth
+
+=== ALL ATTEMPTS COMPLETE ===
+Final best ASR per method: {'wanet': 73.39, 'blended': 92.69, 'low_frequency': 91.54, 'ssba': 24.14, 'flipping_label': 85.38, 'noisy_all2all': 91.16}
+        method  epochs  poi_rates  final_clean_acc  final_asr
+         wanet     100       0.05            93.12      34.37
+         wanet      50       0.15            89.71      73.39
+ low_frequency      50       0.10            92.56      79.70
+ low_frequency      50       0.15            91.98      91.54
+          ssba     100       0.10            88.45      16.66
+          ssba      50       0.20            83.33      24.14
+flipping_label      50       0.10            93.58      85.38
+ noisy_all2all      50       0.10            93.95      91.16
+flipping_label      50       0.15            93.26      85.35
+       blended      50       0.15            90.85      92.69

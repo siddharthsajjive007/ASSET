@@ -1,0 +1,57 @@
+=== wanet | epochs=50 poi_rates=0.15 (current best ASR=35.06%) ===
+  epoch 1/50 | train_loss=2.0068 | train_acc=27.86%
+  epoch 2/50 | train_loss=1.6030 | train_acc=39.03%
+  epoch 3/50 | train_loss=1.4106 | train_acc=46.43%
+  epoch 4/50 | train_loss=1.2728 | train_acc=52.14%
+  epoch 5/50 | train_loss=1.1687 | train_acc=56.35%
+  epoch 6/50 | train_loss=1.0903 | train_acc=59.28%
+  epoch 7/50 | train_loss=1.0056 | train_acc=62.77%
+  epoch 8/50 | train_loss=0.9361 | train_acc=65.22%
+  epoch 9/50 | train_loss=0.8756 | train_acc=67.38%
+  epoch 10/50 | train_loss=0.8365 | train_acc=68.90%
+    --> Clean ACC: 60.72% | ASR: 49.57%
+  epoch 11/50 | train_loss=0.8028 | train_acc=70.27%
+  epoch 12/50 | train_loss=0.7794 | train_acc=71.06%
+  epoch 13/50 | train_loss=0.7532 | train_acc=71.81%
+  epoch 14/50 | train_loss=0.7316 | train_acc=72.55%
+  epoch 15/50 | train_loss=0.7114 | train_acc=73.37%
+  epoch 16/50 | train_loss=0.6890 | train_acc=74.02%
+  epoch 17/50 | train_loss=0.6725 | train_acc=74.82%
+  epoch 18/50 | train_loss=0.6533 | train_acc=75.48%
+  epoch 19/50 | train_loss=0.6355 | train_acc=76.26%
+  epoch 20/50 | train_loss=0.6171 | train_acc=76.90%
+    --> Clean ACC: 73.08% | ASR: 58.25%
+  epoch 21/50 | train_loss=0.5987 | train_acc=77.44%
+  epoch 22/50 | train_loss=0.5765 | train_acc=78.12%
+  epoch 23/50 | train_loss=0.5615 | train_acc=78.95%
+  epoch 24/50 | train_loss=0.5405 | train_acc=79.74%
+  epoch 25/50 | train_loss=0.5242 | train_acc=80.16%
+  epoch 26/50 | train_loss=0.5038 | train_acc=81.24%
+  epoch 27/50 | train_loss=0.4874 | train_acc=81.72%
+  epoch 28/50 | train_loss=0.4613 | train_acc=82.72%
+  epoch 29/50 | train_loss=0.4460 | train_acc=83.41%
+  epoch 30/50 | train_loss=0.4180 | train_acc=84.47%
+    --> Clean ACC: 79.17% | ASR: 57.38%
+  epoch 31/50 | train_loss=0.4003 | train_acc=85.12%
+  epoch 32/50 | train_loss=0.3718 | train_acc=86.00%
+  epoch 33/50 | train_loss=0.3503 | train_acc=86.86%
+  epoch 34/50 | train_loss=0.3282 | train_acc=87.70%
+  epoch 35/50 | train_loss=0.2995 | train_acc=88.69%
+  epoch 36/50 | train_loss=0.2818 | train_acc=89.51%
+  epoch 37/50 | train_loss=0.2518 | train_acc=90.65%
+  epoch 38/50 | train_loss=0.2272 | train_acc=91.48%
+  epoch 39/50 | train_loss=0.1999 | train_acc=92.55%
+  epoch 40/50 | train_loss=0.1779 | train_acc=93.53%
+    --> Clean ACC: 84.78% | ASR: 75.76%
+  epoch 41/50 | train_loss=0.1499 | train_acc=94.49%
+  epoch 42/50 | train_loss=0.1249 | train_acc=95.43%
+  epoch 43/50 | train_loss=0.1019 | train_acc=96.34%
+  epoch 44/50 | train_loss=0.0889 | train_acc=96.86%
+  epoch 45/50 | train_loss=0.0689 | train_acc=97.66%
+  epoch 46/50 | train_loss=0.0592 | train_acc=97.98%
+  epoch 47/50 | train_loss=0.0492 | train_acc=98.46%
+  epoch 48/50 | train_loss=0.0438 | train_acc=98.66%
+  epoch 49/50 | train_loss=0.0400 | train_acc=98.78%
+  epoch 50/50 | train_loss=0.0391 | train_acc=98.80%
+    --> Clean ACC: 89.71% | ASR: 73.39%
+** NEW BEST for wanet: ASR 73.39% (was 35.06%) -- saved to /home/HDD/ATAF/siddharth/ASSET/trained_models/poisoned_models/resnet18_cifar10_wanet.pth

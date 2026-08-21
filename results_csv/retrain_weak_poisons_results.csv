@@ -1,0 +1,11 @@
+method,epochs,poi_rates,final_clean_acc,final_asr
+wanet,100,0.05,93.12,34.37
+wanet,50,0.15,89.71,73.39
+low_frequency,50,0.1,92.56,79.7
+low_frequency,50,0.15,91.98,91.54
+ssba,100,0.1,88.45,16.66
+ssba,50,0.2,83.33,24.14
+flipping_label,50,0.1,93.58,85.38
+noisy_all2all,50,0.1,93.95,91.16
+flipping_label,50,0.15,93.26,85.35
+blended,50,0.15,90.85,92.69
